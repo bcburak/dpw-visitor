@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DpWorld.Visitor.Application\DpWorld.Visitor.Application.csproj" />
+    <ProjectReference Include="..\DpWorld.Visitor.Domain\DpWorld.Visitor.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
