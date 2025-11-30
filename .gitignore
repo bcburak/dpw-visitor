@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DpWorld.Visitor/config/applicationhost.config
+/.vs/DpWorld.Visitor
+/DpWorld.Visitor.Api/bin/Debug/net9.0
+/DpWorld.Visitor.Application/bin/Debug/net9.0
+/DpWorld.Visitor.Application/obj/project.nuget.cache
+/DpWorld.Visitor.Application/obj/Debug/net9.0/ref/DpWorld.Visitor.Application.dll
+/DpWorld.Visitor.Application/obj/Debug/net9.0/refint
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld..751A3614.Up2Date
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.AssemblyInfo.cs
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.AssemblyInfoInputs.cache
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.assets.cache
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.csproj.AssemblyReference.cache
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.csproj.BuildWithSkipAnalyzers
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.csproj.CoreCompileInputs.cache
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.csproj.FileListAbsolute.txt
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.dll
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.GeneratedMSBuildEditorConfig.editorconfig
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.pdb
+/DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.sourcelink.json
+/DpWorld.Visitor.Domain/bin/Debug/net9.0
