@@ -1,0 +1,9 @@
+a {
+    color: #60a2e4;
+    text-decoration: none;
+    margin-left: 5px;
+}
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}

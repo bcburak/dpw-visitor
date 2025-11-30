@@ -4,7 +4,7 @@
 
     <div class="input-group">
         <label for="entranceId">Entrance ID</label>
-        <input type="text" id="entranceId" [(ngModel)]="entranceId" placeholder="e.g. MAIN-LOBBY"
+        <input type="text" id="entranceId" [(ngModel)]="entranceId" placeholder="e.g. MAIN-ENTRANCE"
             (keyup.enter)="onSubmit()">
         <div *ngIf="error" class="error-msg">{{ error }}</div>
     </div>
