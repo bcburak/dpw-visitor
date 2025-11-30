@@ -22,3 +22,12 @@
 /DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.pdb
 /DpWorld.Visitor.Application/obj/Debug/net9.0/DpWorld.Visitor.Application.sourcelink.json
 /DpWorld.Visitor.Domain/bin/Debug/net9.0
+/DpWorld.Visitor.Infrastructure/obj
+/DpWorld.Visitor.Api/obj/Debug/net9.0/EndpointInfo
+/DpWorld.Visitor.Api/obj/Debug/net9.0/ref
+*.dll
+/DpWorld.Visitor.Tests/obj/Debug/net9.0/DpWorld.Visitor.Tests.assets.cache
+/DpWorld.Visitor.Infrastructure/bin/Debug/net9.0
+/DpWorld.Visitor.Tests/bin/Debug/net9.0
+/DpWorld.Visitor.Api/obj/Debug/net9.0/apphost.exe
+/DpWorld.Visitor.Api/obj/Debug/net9.0/staticwebassets

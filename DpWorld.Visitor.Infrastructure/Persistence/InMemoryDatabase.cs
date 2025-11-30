@@ -17,15 +17,14 @@ public class InMemoryDatabase
     private void SeedData()
     {
         // Seed Teams
-        Teams.Add(new Team { Id = 1, Name = "Engineering" });
-        Teams.Add(new Team { Id = 2, Name = "Product" });
-        Teams.Add(new Team { Id = 3, Name = "Sales" });
-        Teams.Add(new Team { Id = 4, Name = "Marketing" });
-        Teams.Add(new Team { Id = 5, Name = "HR" });
+        Teams.Add(new Team { Id = 1, Name = "IT" });
+        Teams.Add(new Team { Id = 2, Name = "Sales" });
+        Teams.Add(new Team { Id = 3, Name = "Marketing" });
+        Teams.Add(new Team { Id = 4, Name = "HR" });
 
         // Seed Entrances
-        Entrances.Add(new Entrance { Id = "MAIN-LOBBY", Description = "Main Lobby Entrance" });
-        Entrances.Add(new Entrance { Id = "SIDE-DOOR", Description = "Side Staff Entrance" });
+        Entrances.Add(new Entrance { Id = "MAIN-ENTRANCE", Description = "Main Entrance" });
+        Entrances.Add(new Entrance { Id = "SIDE-DOOR", Description = "Side Entrance" });
         Entrances.Add(new Entrance { Id = "VIP-GATE", Description = "VIP Gate" });
     }
 }
