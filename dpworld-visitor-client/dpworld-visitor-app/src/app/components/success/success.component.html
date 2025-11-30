@@ -1,0 +1,15 @@
+<div class="card success-card">
+    <div class="icon-circle">
+        ✓
+    </div>
+    <h2>Check-in Successful!</h2>
+    <p>You are all set.</p>
+
+    <div class="summary">
+        <p><strong>Visitor:</strong> {{ visitor.name }}</p>
+        <p><strong>Entrance:</strong> {{ visitor.entranceId }}</p>
+        <p><strong>Time:</strong> {{ currentTime | date:'shortTime' }}</p>
+    </div>
+
+    <button class="primary-btn" (click)="onHome()">Back to Home</button>
+</div>

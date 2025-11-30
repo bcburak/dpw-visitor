@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="step-indicator">
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step active"></div>
+    </div>
+
+    <h2>Review & Check-in</h2>
+
+    <div class="summary">
+        <p><strong>Name:</strong> {{ visitor.name }}</p>
+        <p><strong>Email:</strong> {{ visitor.email }}</p>
+        <p><strong>Company:</strong> {{ visitor.company }}</p>
+        <p><strong>Entrance:</strong> {{ entranceId }}</p>
+    </div>
+
+    <div class="input-group checkbox-group">
+        <label>
+            <input type="checkbox" [(ngModel)]="rulesAccepted">
+            I accept the rules and policies of the building.
+        </label>
+    </div>
+
+    <div *ngIf="error" class="error-msg">{{ error }}</div>
+
+    <button class="primary-btn" (click)="onCheckIn()" [disabled]="!rulesAccepted || isSubmitting">
+        {{ isSubmitting ? 'Checking in...' : 'Check In' }}
+    </button>
+</div>

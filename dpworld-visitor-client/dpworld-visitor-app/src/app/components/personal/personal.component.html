@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="step-indicator">
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+    </div>
+
+    <h2>Your Details</h2>
+
+    <div class="input-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" [(ngModel)]="visitor.name" placeholder="John Doe">
+    </div>
+
+    <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" [(ngModel)]="visitor.email" placeholder="john@example.com">
+    </div>
+
+    <div class="input-group">
+        <label for="company">Company</label>
+        <input type="text" id="company" [(ngModel)]="visitor.company" placeholder="Acme Corp">
+    </div>
+
+    <button class="primary-btn" (click)="onNext()" [disabled]="!isValid()">Next</button>
+</div>

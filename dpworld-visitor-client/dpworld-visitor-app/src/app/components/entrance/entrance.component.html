@@ -1,0 +1,13 @@
+<div class="card">
+    <h2>Welcome</h2>
+    <p>Please enter the Entrance ID to proceed.</p>
+
+    <div class="input-group">
+        <label for="entranceId">Entrance ID</label>
+        <input type="text" id="entranceId" [(ngModel)]="entranceId" placeholder="e.g. MAIN-LOBBY"
+            (keyup.enter)="onSubmit()">
+        <div *ngIf="error" class="error-msg">{{ error }}</div>
+    </div>
+
+    <button class="primary-btn" (click)="onSubmit()" [disabled]="!entranceId">Next</button>
+</div>

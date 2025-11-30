@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="step-indicator">
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step active"></div>
+        <div class="step"></div>
+    </div>
+
+    <h2>Select Team</h2>
+    <p>Who are you visiting today?</p>
+
+    <div class="input-group">
+        <label for="team">Team</label>
+        <select id="team" [(ngModel)]="selectedTeamId">
+            <option [ngValue]="null" disabled>Select a team</option>
+            <option *ngFor="let team of teams" [ngValue]="team.id">{{ team.name }}</option>
+        </select>
+    </div>
+
+    <button class="primary-btn" (click)="onNext()" [disabled]="!selectedTeamId">Next</button>
+</div>
