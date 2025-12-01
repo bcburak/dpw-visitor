@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "DpWorld.Visitor.Api.Controllers.CheckInController",
+    "Method": "CheckIn",
+    "RelativePath": "api/CheckIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DpWorld.Visitor.Api.Controllers.CheckInRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DpWorld.Visitor.Domain.Entities.Visitor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DpWorld.Visitor.Api.Controllers.TeamsController",
+    "Method": "GetTeams",
+    "RelativePath": "api/Teams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DpWorld.Visitor.Domain.Entities.Team, DpWorld.Visitor.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
